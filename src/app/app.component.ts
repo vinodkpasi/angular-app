@@ -3,8 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styles: ['p { color:green}'],
+
 })
 export class AppComponent {
-  title = 'apptest';
+  title = 'View Encapsulation in Angular';
 }
